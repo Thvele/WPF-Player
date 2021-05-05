@@ -1,0 +1,12 @@
+﻿<Window x:Class="Player.reklama"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Player"
+        mc:Ignorable="d"
+        Title="reklama" Height="450" Width="800" Closing="Window_Closing" WindowState="Maximized" MouseLeftButtonUp="Window_MouseLeftButtonUp" Background="Black" Activated="Window_Activated" ResizeMode="NoResize">
+    <Grid>
+        <MediaElement Name="me_reklama" Volume="1" LoadedBehavior="Manual" MediaEnded="me_reklama_MediaEnded"/>
+    </Grid>
+</Window>
